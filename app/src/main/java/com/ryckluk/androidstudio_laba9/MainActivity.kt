@@ -82,6 +82,35 @@ fun GameCatalogApp() {
             modifier = Modifier.padding(horizontal = 8.dp)
         )
 
+        Spacer(modifier = Modifier.height(24.dp))
+
+
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceEvenly
+        ) {
+            Button(onClick = {
+
+                currentIndex = if (currentIndex == 0) games.size - 1 else currentIndex - 1
+            }) {
+                Text("⬅ Назад")
+            }
+
+            Button(onClick = {
+
+                currentIndex = if (currentIndex == games.size - 1) 0 else currentIndex + 1
+            }) {
+                Text("Вперёд ➡")
+            }
+        }
+
+
+        Spacer(modifier = Modifier.height(16.dp))
+        Text(
+            text = "${currentIndex + 1} / ${games.size}",
+            style = MaterialTheme.typography.labelMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant
+        )
 
     }
 }
