@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">androidstudio-laba9</string>
+
+    <string name="game1">Minecraft</string>
+    <string name="game2">Grand Theft Auto V</string>
+    <string name="game3">The Witcher 3: Wild Hunt</string>
+    <string name="game4">Cyberpunk 2077</string>
+    <string name="game5">Elden Ring</string>
+    <string name="game6">Red Dead Redemption 2</string>
+    <string name="game7">God of War Ragnarök</string>
+    <string name="game8">The Last of Us Part II</string>
+    <string name="game9">The Elder Scrolls V: Skyrim</string>
+    <string name="game10">Hollow Knight</string>
+
+
+    <string name="desc1">Песочница, где игроки строят миры из блоков, исследуют пещеры и сражаются с монстрами.</string>
+    <string name="desc2">Приключенческий экшен в открытом мире, следуемый за тремя преступниками в городе Лос-Сантос.</string>
+    <string name="desc3">Геральт из Ривии отправляется на поиски своей приемной дочери в мире, полном монстров и магии.</string>
+    <string name="desc4">Ролевая игра в футуристическом мегаполисе Найт-Сити, где власть и модификации тела решают всё.</string>
+    <string name="desc5">Хардкорная RPG в огромном фэнтезийном мире, созданном Хидетакой Миядзаки и Джорджем Мартином.</string>
+    <string name="desc6">Эпическая история бандита Артура Моргана на закате эры Дикого Запада.</string>
+    <string name="desc7">Кратос и его сын Атрей путешествуют по скандинавским мифам, чтобы предотвратить Рагнарёк.</string>
+    <string name="desc8">Постапокалиптическое путешествие Элли в мире, разрушенном грибковой инфекцией.</string>
+    <string name="desc9">Легендарная RPG, позволяющая стать любым героем в огромном открытом мире Скайрима.</string>
+    <string name="desc10">Атмосферный метроидвания о рыцаре-насекомом, исследующем заброшенное королевство насекомых.</string>
+
+</resources>
